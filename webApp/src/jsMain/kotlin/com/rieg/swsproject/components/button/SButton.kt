@@ -1,4 +1,4 @@
-package com.rieg.components.button
+package com.rieg.swsproject.components.button
 
 import androidx.compose.runtime.Composable
 import org.jetbrains.compose.web.css.Style

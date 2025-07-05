@@ -1,4 +1,4 @@
-package com.rieg.components
+package com.rieg.swsproject.components
 
 import androidx.compose.runtime.Composable
 import org.jetbrains.compose.web.attributes.AttrsScope
@@ -11,7 +11,7 @@ import org.jetbrains.compose.web.dom.Div
 import org.w3c.dom.HTMLDivElement
 
 @Composable
-fun Column(
+fun Row(
     attrs: (AttrsScope<HTMLDivElement>.() -> Unit)? = null,
     content: ContentBuilder<HTMLDivElement>? = null
 ) {
@@ -19,7 +19,7 @@ fun Column(
         attrs = {
             style {
                 display(DisplayStyle.Flex)
-                flexDirection(FlexDirection.Column)
+                flexDirection(FlexDirection.Row)
             }
             attrs?.invoke(this)
         },

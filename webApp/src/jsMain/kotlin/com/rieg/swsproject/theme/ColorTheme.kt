@@ -1,4 +1,4 @@
-package com.rieg.theme
+package com.rieg.swsproject.theme
 
 import org.jetbrains.compose.web.css.CSSColorValue
 import org.jetbrains.compose.web.css.Color

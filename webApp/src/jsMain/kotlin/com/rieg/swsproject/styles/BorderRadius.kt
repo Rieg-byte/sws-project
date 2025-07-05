@@ -1,4 +1,4 @@
-package com.rieg.styles
+package com.rieg.swsproject.styles
 
 import org.jetbrains.compose.web.css.px
 import org.jetbrains.compose.web.css.percent

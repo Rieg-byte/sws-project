@@ -1,11 +1,11 @@
-package com.rieg
+package com.rieg.swsproject
 
 import app.softwork.routingcompose.BrowserRouter
 import app.softwork.routingcompose.Router
-import com.rieg.components.MainContent
-import com.rieg.pages.main.MainPage
-import com.rieg.pages.stats.StatsPage
-import com.rieg.styles.AppStylesheet
+import com.rieg.swsproject.components.MainContent
+import com.rieg.swsproject.pages.main.MainPage
+import com.rieg.swsproject.pages.stats.StatsPage
+import com.rieg.swsproject.styles.AppStylesheet
 import org.jetbrains.compose.web.css.Style
 import org.jetbrains.compose.web.renderComposable
 

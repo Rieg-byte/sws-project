@@ -1,13 +1,13 @@
-package com.rieg.pages.main
+package com.rieg.swsproject.pages.main
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import com.rieg.components.Column
-import com.rieg.components.Row
-import com.rieg.components.button.SButton
-import com.rieg.components.input.STextInput
-import com.rieg.theme.ColorTheme
+import com.rieg.swsproject.components.Column
+import com.rieg.swsproject.components.Row
+import com.rieg.swsproject.components.button.SButton
+import com.rieg.swsproject.components.input.STextInput
+import com.rieg.swsproject.theme.ColorTheme
 import kotlinx.browser.localStorage
 import org.jetbrains.compose.web.css.*
 import org.jetbrains.compose.web.dom.A

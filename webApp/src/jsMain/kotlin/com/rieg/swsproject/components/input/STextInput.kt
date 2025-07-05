@@ -1,4 +1,4 @@
-package com.rieg.components.input
+package com.rieg.swsproject.components.input
 
 import androidx.compose.runtime.Composable
 import org.jetbrains.compose.web.attributes.builders.InputAttrsScope

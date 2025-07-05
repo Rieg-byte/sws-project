@@ -1,8 +1,8 @@
-package com.rieg.components.input
+package com.rieg.swsproject.components.input
 
-import com.rieg.styles.BorderRadius
-import com.rieg.theme.ColorTheme
-import com.rieg.utils.boxShadow
+import com.rieg.swsproject.styles.BorderRadius
+import com.rieg.swsproject.theme.ColorTheme
+import com.rieg.swsproject.utils.boxShadow
 import org.jetbrains.compose.web.css.*
 
 object STextInputStyle : StyleSheet() {

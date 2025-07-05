@@ -1,4 +1,4 @@
-package com.rieg.components.card
+package com.rieg.swsproject.components.card
 
 import androidx.compose.runtime.Composable
 import org.jetbrains.compose.web.css.Style

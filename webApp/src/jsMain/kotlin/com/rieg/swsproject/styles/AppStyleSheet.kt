@@ -1,6 +1,6 @@
-package com.rieg.styles
+package com.rieg.swsproject.styles
 
-import com.rieg.theme.ColorTheme
+import com.rieg.swsproject.theme.ColorTheme
 import org.jetbrains.compose.web.css.StyleSheet
 import org.jetbrains.compose.web.css.backgroundColor
 import org.jetbrains.compose.web.css.fontFamily

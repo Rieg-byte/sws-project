@@ -1,7 +1,7 @@
-package com.rieg.components.card
+package com.rieg.swsproject.components.card
 
-import com.rieg.styles.BorderRadius
-import com.rieg.theme.ColorTheme
+import com.rieg.swsproject.styles.BorderRadius
+import com.rieg.swsproject.theme.ColorTheme
 import org.jetbrains.compose.web.css.*
 
 object CardStyle: StyleSheet() {

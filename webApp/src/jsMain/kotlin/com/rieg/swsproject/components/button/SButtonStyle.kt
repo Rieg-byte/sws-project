@@ -1,8 +1,8 @@
-package com.rieg.components.button
+package com.rieg.swsproject.components.button
 
-import com.rieg.styles.BorderRadius
-import com.rieg.theme.ColorTheme
-import com.rieg.utils.lighten
+import com.rieg.swsproject.styles.BorderRadius
+import com.rieg.swsproject.theme.ColorTheme
+import com.rieg.swsproject.utils.lighten
 import org.jetbrains.compose.web.css.*
 
 object SButtonStyle : StyleSheet() {
