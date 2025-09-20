@@ -14,9 +14,7 @@ kotlin {
         val commonMain by getting {
             dependencies {
                 implementation(libs.kotlin.serialization.json)
-                implementation(libs.ktor.client.core)
-                implementation(libs.ktor.client.cio)
-                implementation(libs.logback.classic)
+                implementation(libs.bundles.ktor.common)
                 implementation(libs.koin.core)
                 implementation(libs.koin.compose.viewmodel)
                 implementation(libs.multiplatform.settings.no.arg)
@@ -33,6 +31,7 @@ kotlin {
 
         val jsMain by getting {
             dependencies {
+                implementation(libs.ktor.client.js)
 
             }
         }
