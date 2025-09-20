@@ -9,7 +9,9 @@ fun initKoin(config : KoinAppDeclaration? = null){
         includes(config)
         modules(
             repositoryModule,
-            settingsModule
+            settingsModule,
+            clientModule,
+            dataStoreModule
         )
     }
 }
