@@ -1,29 +1,23 @@
 package com.rieg.swsproject.data.repository
 
+import com.rieg.swsproject.data.datastore.DataStore
 import com.rieg.swsproject.domain.model.SteamApiKey
 import com.rieg.swsproject.domain.repository.SteamApiKeyRepository
-import com.russhwolf.settings.Settings
-import com.russhwolf.settings.get
 
-const val WEB_API = "webApi"
-const val DEFAULT_VALUE_WEB_API = ""
 
 class SteamApiKeyRepositoryImpl(
-    private val settings: Settings
+    private val dataStore: DataStore
 ) : SteamApiKeyRepository {
     override suspend fun saveApiKey(apiKey: String) {
-        settings.putString(WEB_API, apiKey)
+        dataStore.saveApiKey(apiKey)
     }
 
     override suspend fun removeApiKey() {
-        settings.remove(WEB_API)
+        dataStore.removeApiKey()
     }
 
     override suspend fun getApiKey(): SteamApiKey {
-        val apiKey =settings.getString(
-            key = WEB_API,
-            defaultValue = DEFAULT_VALUE_WEB_API
-        )
+        val apiKey = dataStore.getApiKey()
         return SteamApiKey(apiKey)
     }
 }
